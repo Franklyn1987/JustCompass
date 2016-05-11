@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_background">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="＜"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_margin="6dip"
+        android:gravity="center"
+        android:clickable="false"
+        android:background="@drawable/title_button_background"/>
+
+
+
+    <TextView
+        android:id="@+id/title_about"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="关于"
+        android:layout_margin="2dip"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>

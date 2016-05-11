@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <include layout="@layout/title_about"/>
+
+    <TableLayout
+        android:background="@drawable/text_background"
+        >
+
+        <TableRow
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_app_name"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="0dip"
+                android:textSize="20sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_namein"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="0dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="15sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:background="@drawable/text_background"
+        >
+
+        <TableRow
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_app_version"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="0dip"
+                android:textSize="20sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_version"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="0dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="15sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:background="@drawable/text_background"
+        >
+
+        <TableRow
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_author"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="0dip"
+                android:textSize="20sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/author"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="0dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="15sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:background="@drawable/text_background"
+        >
+
+        <TableRow
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_email"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="0dip"
+                android:textSize="20sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="0dip"
+                android:layout_marginBottom="10dip"
+                android:textSize="15sp"
+                android:textColor="@drawable/gray"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</TableLayout>

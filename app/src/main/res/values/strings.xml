@@ -1,0 +1,12 @@
+<resources>
+    <string name="info_app_name">&#160;软件名称</string>
+    <string name="info_app_version">&#160;版本</string>
+    <string name="info_author">&#160;作者</string>
+    <string name="info_email">&#160;联系邮箱</string>
+    <string name="app_name">只是指南针</string>
+    <string name="app_namein">&#160;只是指南针</string>
+
+    <string name="app_version">&#160;v1.0</string>
+    <string name="author">&#160;Heytomato</string>
+    <string name="email">&#160;lxxfs@foxmail.com</string>
+</resources>
